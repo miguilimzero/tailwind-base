@@ -12,6 +12,10 @@ const tailwindBase = plugin(function ({ addBase, theme }) {
     'h4': { fontSize: theme('fontSize.lg'), fontWeight: theme('fontWeight.medium') },
     'h5': { fontSize: theme('fontSize.base'), fontWeight: theme('fontWeight.medium') },
     'h6': { fontSize: theme('fontSize.sm'), fontWeight: theme('fontWeight.medium') },
+    // p
+    'p': { fontSize: theme('fontSize.sm'), color: theme('colors.gray.500') },
+    // dark p
+    '.dark p': { color: theme('colors.gray.300') },
     // dark theme border
     '.dark *, .dark ::before, .dark ::after': { borderColor: theme('colors.gray.600', 'currentColor') },
     // body
