@@ -24,7 +24,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require('@srdante/tailwind-baseo'),
+    require('@srdante/tailwind-base'),
     // ...
   ],
 }
