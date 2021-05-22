@@ -1,6 +1,6 @@
 # @srdante/tailwind-base
 
-A plugin that provides a css standard colors for headers and body tags.
+A Tailwind CSS plugin that provides a css standard colors/font sizes for headers, paragraph and body tags.
 
 
 ## Installation
